@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #062863;
+  position: relative;
+}
+
+.img-logo {
+  text-align: center;
+  margin: 45px;
+}
+
+.create-account {
+  width: 343px;
+  background: #fff;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 20px 20px 20px 0;
+  position: relative;
+  padding-top: 35px;
+}
+
+.title h1 {
+  font-family: "Alata", sans-serif;
+  padding: 5px;
+  color: #0540a7;
+  font-size: 25px;
+
+  font-weight: 100px;
+  text-align: center;
+}
+
+.title p {
+  color: rgb(68, 68, 68);
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 50;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.form,
+.form-items {
+  width: 343px;
+}
+
+#how {
+  width: 343px;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  padding: 17px 12px;
+  box-sizing: border-box;
+  background: #edf2f7;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  font-size: medium;
+}
+
+.input {
+  width: 100%;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  padding: 17px 12px;
+  box-sizing: border-box;
+  background: #edf2f7;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  font-size: medium;
+}
+
+.input[type="text"]::placeholder {
+  color: rgb(190, 184, 184);
+  font-family: "segoe UI";
+}
+
+.input[type="password"]::placeholder {
+  color: rgb(190, 184, 184);
+  font-family: "segoe UI";
+}
+
+.login {
+  font-family: "Karla", sans-serif;
+  padding-bottom: 60px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login:hover {
+  color: rgb(184, 179, 179);
+}
+
+.button {
+  font-family: "Alata", sans-serif;
+  background: #0540a7;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 17px;
+  cursor: pointer;
+  border-radius: 10px 10px 10px 0;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #062863;
+}
+
+.label-name {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #515c6e;
+}
+
+.image-one {
+  position: fixed;
+  width: 205px;
+  top: -74px;
+  left: -12px;
+}
+
+.image-two {
+  position: fixed;
+  width: 205px;
+  right: -104px;
+  top: -5px;
+}
+
+.image-three {
+  position: fixed;
+  width: 205px;
+  bottom: -49px;
+  left: -58px;
+}
+
+.image-four {
+  position: fixed;
+  width: 205px;
+  bottom: -25px;
+  right: -75px;
+}
