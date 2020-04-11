@@ -147,11 +147,11 @@ body {
   right: -75px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .image-one,
   .image-two,
   .image-three,
   .image-four {
-    width: 25%;
+    width: 10%;
   }
 }
