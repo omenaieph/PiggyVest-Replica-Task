@@ -147,7 +147,7 @@ body {
   right: -75px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   .image-one,
   .image-two,
   .image-three,
