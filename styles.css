@@ -146,3 +146,12 @@ body {
   bottom: -25px;
   right: -75px;
 }
+
+@media (max-width: 640px) {
+  .image-one,
+  .image-two,
+  .image-three,
+  .image-four {
+    width: 140px;
+  }
+}
